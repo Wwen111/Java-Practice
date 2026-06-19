@@ -1,6 +1,6 @@
 package com;
 
-public class Test27 {
+public class Test2727 {
     public int removeElement(int[] nums, int val) {
         int slow=0;
         for(int fast=0;fast<nums.length;fast++)
@@ -14,7 +14,7 @@ public class Test27 {
         return slow;
     }
     public static void main(String[] args) {
-        Test27 obj = new Test27();
+        Test2727 obj = new Test2727();
         int[] arr = {3,2,2,3};
         int res = obj.removeElement(arr,3);
         System.out.println("新数组长度："+res);
