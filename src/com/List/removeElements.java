@@ -33,11 +33,9 @@ public class removeElements {
         System.out.println();
     }
 
-    // 主方法：程序入口
     public static void main(String[] args) {
         removeElements test = new removeElements();
 
-        // 构造测试链表：1 -> 2 -> 6 -> 3 -> 4 -> 5 -> 6
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(6);
@@ -49,7 +47,6 @@ public class removeElements {
         System.out.println("删除前：");
         test.printList(head);
 
-        // 删除值为 6 的节点
         ListNode newHead = test.removeElements(head, 6);
 
         System.out.println("删除后：");
