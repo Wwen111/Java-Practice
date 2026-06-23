@@ -32,7 +32,6 @@ public class removeElements {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         removeElements test = new removeElements();
 
