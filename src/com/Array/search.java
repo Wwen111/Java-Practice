@@ -1,5 +1,4 @@
 package com.Array;
-
 public class search {
     public int search(int[] nums, int target) {
         int left=0;

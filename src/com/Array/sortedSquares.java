@@ -1,5 +1,4 @@
 package com.Array;
-
 public class sortedSquares {
     public int[] sortedSquares(int[] nums) {
         int[] result = new int[nums.length];
@@ -19,7 +18,6 @@ public class sortedSquares {
         }
         return result;
     }
-
     public static void main(String[] args) {
         sortedSquares obj = new sortedSquares();
         int[] arr = {-4, -1, 0, 3, 10};
